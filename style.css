@@ -155,3 +155,9 @@ body {
     padding:60px 8%;
     /* background-color:greenyellow */
 }
+.para{
+
+    background-color:greenyellow;
+    width: 125px;
+    height:60px;
+}
