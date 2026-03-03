@@ -148,16 +148,23 @@ body {
 
 /* section3 start of the Hero section. */
 
-.section3 {
-    display: flex;
+#section3 {
+     display: flex;
+        flex-wrap: wrap;
     align-items: center;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
     padding:60px 8%;
-    /* background-color:greenyellow */
-}
+   text-align: center;
+   gap: 40px;
+} 
 .para{
-
-    background-color:greenyellow;
-    width: 125px;
-    height:60px;
+      text-align: center;
+     background-color:greenyellow;
+    padding:20px 50px;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 30px;
+     
+    /* margin:10px */
+    border-radius: 10px;
+    
 }
