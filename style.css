@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: white;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     gap: 30px;
     /* list-style:none; */
     align-items: center;
