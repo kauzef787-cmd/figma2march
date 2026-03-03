@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,47 +8,60 @@ body{
 
 
 /* navbar class is nav and (li) given id for style ??/ */
-.flex{
+.flex {
     /* text-decoration:none ; */
     display: flex;
     /* justify-content: space-around; */
     background-color: white;
-    margin-top:50px;
+    margin-top: 50px;
     gap: 30px;
     /* list-style:none; */
-    align-items:center;
-    flex-wrap:wrap;                  /*simple responsive design */
+    align-items: center;
+    flex-wrap: wrap;
+    /*simple responsive design */
 }
-.nav{
+
+.nav {
     text-decoration: none;
     display: flex;
     /* justify-content: space-around; */
     /* justify-content: center; */
     background-color: white;
-    align-items:center;
+    align-items: center;
 
     gap: 30px;
     list-style: none;
 }
- #req { 
-    text-decoration:none !important;
-    color:black;
+
+#req {
+    text-decoration: none !important;
+    color: black;
     border: 1px solid black !important;
     padding: 10px 30px;
     border-radius: 10px;
- }
+}
 
- /* Nav end */
+/* Nav end */
 
 
- /* Hero section Start  */
+/* Hero section Start  */
 
- .hero_section {
-display:flex;
-align-items:center;
-/* justify-content:space-evenly; */
-/* padding:60px 8%; */
+.hero_section {
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    /* padding:60px 8%; */
 
-/* min-height:100vh; */
+    /* min-height:100vh; */
 
- }
+}
+
+/* now style the button in hero section. */
+#book {
+    text-decoration: none !important;
+    color: white;
+    background: rgba(25, 26, 35, 1);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
