@@ -1,24 +1,26 @@
 /* navbar class is nav and (li) given id for style ??/ */
 .flex{
-    text-decoration:none ;
+    /* text-decoration:none ; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     background-color: white;
-    
+    margin-top:50px;
     gap: 30px;
-    list-style:none;
+    /* list-style:none; */
+    justify-content:center;
 }
 .nav{
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     background-color: white;
 
     gap: 30px;
     list-style: none;
 }
  #req { 
-    text-decoration:none !important;
+    /* text-decoration:none !important; */
     color:black;
     border: 1px solid black !important;
     padding: 10px 30px;
