@@ -7,20 +7,21 @@
     margin-top:50px;
     gap: 30px;
     /* list-style:none; */
-    justify-content:center;
+    align-items:center;
 }
 .nav{
     text-decoration: none;
     display: flex;
     /* justify-content: space-around; */
-    justify-content: center;
+    /* justify-content: center; */
     background-color: white;
+    align-items:center;
 
     gap: 30px;
     list-style: none;
 }
  #req { 
-    /* text-decoration:none !important; */
+    text-decoration:none !important;
     color:black;
     border: 1px solid black !important;
     padding: 10px 30px;
