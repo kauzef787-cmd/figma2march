@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
 /* navbar class is nav and (li) given id for style ??/ */
 .flex{
     /* text-decoration:none ; */
@@ -27,4 +36,19 @@
     border: 1px solid black !important;
     padding: 10px 30px;
     border-radius: 10px;
+ }
+
+ /* Nav end */
+
+
+ /* Hero section Start  */
+
+ .hero_section {
+display:flex;
+align-items:center;
+/* justify-content:space-evenly; */
+/* padding:60px 8%; */
+
+/* min-height:100vh; */
+
  }
