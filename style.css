@@ -168,3 +168,16 @@ body {
     border-radius: 10px;
     
 }
+
+/* Card section Start Now.  */
+.card_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 50px;
+    gap: 30px;
+    /* list-style:none; */
+    flex-wrap: wrap;
+    padding:60px 8%;
+}
