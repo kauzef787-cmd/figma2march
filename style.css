@@ -93,3 +93,13 @@ body {
         text-align: center;
     }
 }
+
+/* next section is second bar  */
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:60px 8%;
+   /* background-color: black; */
+}
