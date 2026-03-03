@@ -11,7 +11,7 @@ body {
 .flex {
     /* text-decoration:none ; */
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     background-color: white;
     margin-top: 50px;
     gap: 30px;
@@ -19,6 +19,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     /*simple responsive design */
+    padding:60px 8%;
 }
 
 .nav {
@@ -28,11 +29,18 @@ body {
     /* justify-content: center; */
     background-color: white;
     align-items: center;
-
+    justify-content: space-between;
     gap: 30px;
     list-style: none;
 }
-
+.space{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
 #req {
     text-decoration: none !important;
     color: black;
@@ -49,8 +57,8 @@ body {
 .hero_section {
     display: flex;
     align-items: center;
-    /* justify-content:space-evenly; */
-    /* padding:60px 8%; */
+    justify-content: space-between;
+    padding:60px 8%;
 
     /* min-height:100vh; */
 
@@ -75,7 +83,7 @@ body {
 
     .hero_section {
         flex-direction: column;
-        /* important */
+      
         text-align: center;
     }
 
@@ -83,4 +91,3 @@ body {
         margin-top: 30px;
     }
 }
-
