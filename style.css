@@ -1,0 +1,26 @@
+/* navbar class is nav and (li) given id for style ??/ */
+.flex{
+    text-decoration:none ;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    
+    gap: 30px;
+    list-style:none;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+
+    gap: 30px;
+    list-style: none;
+}
+ #req { 
+    text-decoration:none !important;
+    color:black;
+    border: 1px solid black !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
