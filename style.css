@@ -19,7 +19,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     /*simple responsive design */
-    padding:60px 8%;
+    padding: 60px 8%;
 }
 
 .nav {
@@ -33,14 +33,16 @@ body {
     gap: 30px;
     list-style: none;
 }
-.space{
+
+.space {
     display: flex;
     align-items: center;
     gap: 8px;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
+
 #req {
     text-decoration: none !important;
     color: black;
@@ -58,7 +60,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:60px 8%;
+    padding: 60px 8%;
 
     /* min-height:100vh; */
 
@@ -84,10 +86,12 @@ body {
         flex-direction: column;
         text-align: center;
     }
+
     .nav {
         flex-direction: column;
         text-align: center;
     }
+
     .hero_section {
         flex-direction: column;
         text-align: center;
@@ -100,8 +104,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:60px 8%;
-   /* background-color: black; */
+    padding: 60px 8%;
+    /* background-color: black; */
 }
 
 /* Responsive design for second section.  */
@@ -149,24 +153,25 @@ body {
 /* section3 start of the Hero section. */
 
 #section3 {
-     display: flex;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     /* justify-content:space-evenly; */
-    padding:60px 8%;
-   text-align: center;
-   gap: 40px;
-} 
-.para{
-      text-align: center;
-     background-color:greenyellow;
-    padding:20px 50px;
-     font-family: 'Courier New', Courier, monospace;
-     font-size: 30px;
-     
+    padding: 60px 8%;
+    text-align: center;
+    gap: 40px;
+}
+
+.para {
+    text-align: center;
+    background-color: greenyellow;
+    padding: 20px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+
     /* margin:10px */
     border-radius: 10px;
-    
+
 }
 
 /* Card section Start Now.  */
@@ -174,14 +179,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 50px;
     gap: 30px;
-    /* list-style:none; */
+    
     flex-wrap: wrap;
-    padding:60px 8%;
+    padding: 60px 8%;
 }
 
-.iconcard{
-    
+.iconcard {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: black;
+
+    color: white;
+    fill: white;
+}
+.icon svg {
+    fill: white;
 }
