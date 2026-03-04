@@ -176,19 +176,24 @@ body {
 
 /* Card section Start Now.  */
 .card_section {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     /* justify-content: space-evenly; */
     /* background-color: white; */
     /* margin-top: 50px; */
     /* gap: 30px; */
-
+    border: 2px solid black;
     flex-wrap: wrap;
     padding: 60px 8%;
 }
 
 .iconcard { 
    
+    /* display: flex; */
+    align-items: center;
+display: flex;
+/* background-color: black; */
+justify-content: center;
     /* justify-content: center; */
 
 /* background:rgb(0, 0, 0); */
@@ -197,8 +202,8 @@ body {
 /* Cardmain styling .  */
 
 .cardmain {
+   /* border:2px solid black;  */
     display: flex;
-    /* border: 2px solid black; */
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -206,5 +211,11 @@ body {
     display: flex;
     background-color: black;    
     justify-content: center;
+    
+}
+.cardmain1 {
+    display:flex;
+    align-items: center;
+    gap:10px;
     
 }
