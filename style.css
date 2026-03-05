@@ -364,6 +364,7 @@ second_heading {
     text-align: center;
 }
 /* Responsive design for third section.*/
+@media (max-width:768px) {
 .section3 {
     display: flex;
     align-items: center;
@@ -409,3 +410,24 @@ second_heading {
     padding: 1px 20px;
     border-radius: 20px;
 }
+}
+/* Responsive design for fourth section.  */
+@media (max-width:768px) {
+
+    .section3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .para_heading_btn {
+        margin-bottom: 20px;
+    }
+
+    .heading_thirdsection {
+        font-size: 28px;
+    }
+
+    .section4 {
+        text-align: center;
+    }  
+ }
