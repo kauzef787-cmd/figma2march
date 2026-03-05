@@ -347,7 +347,7 @@ second_heading {
  padding-left: 68px; 
      padding-right: 68px; 
       background: rgba(243, 243, 243, 1);
-      margin: 1px 145px;
+      margin: 1px 140px;
 }
 .section3 img {
     width: 100%;
@@ -362,4 +362,12 @@ second_heading {
     border-radius: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+/* Section fouth start now.   */
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    gap: 40px;
 }
