@@ -198,9 +198,7 @@ body {
     display: flex;
     /* background-color: black; */
     /* justify-content: center; */
-    /* justify-content: center; */
     gap: 40px;
-    /* background:rgb(0, 0, 0); */
 }
 
 /* Cardmain styling .  */
@@ -266,38 +264,42 @@ body {
 
 }
 /* Second section Start Now.  */
-.card_section {
+.divmain_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 10000px;
+    margin: 20px 20px;
+    padding: 60px 8%;
+}
+.card_section{
     display: flex;
     align-items: center;
     object-fit: cover !important;
     gap: 50px;
-    /* padding: 20px; */
     padding: 60px 8%;
     box-shadow: 0 8px 8px -6px rgba(0, 0, 0, 0.5);
-    /* display: flex; */
     justify-content: space-between;
-    /* align-items: center; */
     border: 2px solid #000;
     border-radius: 20px;
 
 }
 
+.secon_color{
+    background-color:yellowgreen !important;
+}
+.secon_heading{
+    background-color: white !important;
+}
 .iconcard {
 
-    /* display: flex; */
-    /* align-items: center; */
     display: flex;
-    /* background-color: black; */
-    /* justify-content: center; */
-    /* justify-content: center; */
     gap: 40px;
-    /* background:rgb(0, 0, 0); */
 }
 
 /* Cardmain styling .  */
 
 .cardmain {
-    /* border:2px solid black;  */
     display: flex;
     border-radius: 50%;
     width: 35px;
@@ -313,7 +315,6 @@ body {
 .cardmain1 {
     display: flex;
     align-items: center;
-    /* object-fit: cover; */
     gap: 10px;
 
 }
@@ -327,11 +328,3 @@ body {
     font-family: 'Courier New';
 }
 
-.divmain_card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    max-width: 10000px;
-    margin: 20px 20px;
-    padding: 60px 8%;
-}
