@@ -333,3 +333,24 @@ second_heading {
     background-color:white;
     
 }
+/* Now start third section and make it responsive.   */
+
+.section3 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    /* text-align: center; */
+    gap: 275px;
+    border:2px solid black;
+    border-radius: 45px;
+ padding-left: 68px; 
+     padding-right: 68px; 
+      background: rgba(243, 243, 243, 1);
+      margin: 1px 120px;
+}
+.section3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
