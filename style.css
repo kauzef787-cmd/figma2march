@@ -263,7 +263,7 @@ body {
     }
 
 }
-/* Second section Start Now.  */
+/* Second Card section Start Now.  */
 .divmain_card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -285,7 +285,7 @@ body {
 
 }
 
-.secon_color{
+.second_color{
     background-color:yellowgreen !important;
 }
 
@@ -325,4 +325,11 @@ second_heading {
     background-color:white;
     font-family: 'Courier New';
 }
-
+/* Third card section start now.  */
+.third_color{
+    background-color:black !important;
+}
+.third_heading{
+    background-color:white;
+    
+}
