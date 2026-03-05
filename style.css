@@ -263,6 +263,7 @@ body {
     }
 
 }
+
 /* Second Card section Start Now.  */
 .divmain_card {
     display: grid;
@@ -272,7 +273,8 @@ body {
     margin: 20px 20px;
     padding: 60px 8%;
 }
-.card_section{
+
+.card_section {
     display: flex;
     align-items: center;
     object-fit: cover !important;
@@ -285,8 +287,8 @@ body {
 
 }
 
-.second_color{
-    background-color:yellowgreen !important;
+.second_color {
+    background-color: yellowgreen !important;
 }
 
 .iconcard {
@@ -322,112 +324,100 @@ body {
 }
 
 second_heading {
-    background-color:white;
+    background-color: white;
     font-family: 'Courier New';
 }
+
 /* Third card section start now.  */
-.third_color{
-    background-color:black !important;
+.third_color {
+    background-color: black !important;
 }
-.third_heading{
-    background-color:white;
-    
+
+.third_heading {
+    background-color: white;
+
 }
+
 /* Now start third section and make it responsive.   */
 
-.section3 { 
+.section3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px 8%;
     /* text-align: center; */
     gap: 275px;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 45px;
- padding-left: 68px; 
-     padding-right: 68px; 
-      background: rgba(243, 243, 243, 1);
-      margin: 1px 140px;
+    padding-left: 68px;
+    padding-right: 68px;
+    background: rgba(243, 243, 243, 1);
+    margin: 1px 140px;
 }
+
 .section3 img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
+
 .btn {
     text-decoration: none;
-     color: white;
+    color: white;
     background: rgba(25, 26, 35, 1);
     padding: 10px 10px;
     border-radius: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
 /* Responsive design for third section.*/
-@media (max-width:768px) {
-.section3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-}
-
-.para_heading_btn {
-    flex: 1;
-    min-width: 300px;
-}
-
-.third_img {
-    flex: 1;
-    text-align: center;
-}
-
-.third_img img {
-    max-width: 100%;
-    height: auto;
-}
-
-.btn {
-    background: black;
-    color: white;
-    padding: 10px 20px;
-    width: fit-content;
-    margin-top: 15px;
-}
-/* Section fouth start now.   */
-.section4 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 8%;
-    gap: 40px;
-}
-.heading_4 {
-    background-color: greenyellow;
-    font-family: 'Courier New', Courier, monospace;
-    /* font-size: 30px; */
-    padding: 1px 20px;
-    border-radius: 20px;
-}
-}
-/* Responsive design for fourth section.  */
-@media (max-width:768px) {
-
+@media (max-width:768px)
+ {
     .section3 {
-        flex-direction: column;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 20px;
+        flex-wrap: wrap;
     }
 
     .para_heading_btn {
-        margin-bottom: 20px;
+        flex: 1;
+        min-width: 300px;
     }
 
-    .heading_thirdsection {
-        font-size: 28px;
-    }
-
-    .section4 {
+    .third_img {
+        flex: 1;
         text-align: center;
-    }  
- }
+    }
+
+    .third_img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        background: black;
+        color: white;
+        padding: 10px 20px;
+        width: fit-content;
+        margin-top: 15px;
+    }
+}
+
+    /* Section fouth start now.   */
+    .sectionfour {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 8%;
+        gap: 40px;
+    }
+    .heading_f {
+        background-color: greenyellow;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 1px 10px;
+        /* font-size: 30px; */
+        border-radius: 10px;
+    }   
