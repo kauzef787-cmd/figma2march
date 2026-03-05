@@ -421,3 +421,28 @@ second_heading {
         /* font-size: 30px; */
         border-radius: 10px;
     }   
+    /* Section fifth start now.    */
+    .sectionfive {
+        /* display: flex; */
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 8%;
+        gap: 40px;
+    }
+    .card_icon1 {
+        display: flex;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        display: flex;
+        background-color: black;
+        justify-content: center;
+
+        object-fit: cover;
+    }
+    .icon_heading1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
