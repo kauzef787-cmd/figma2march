@@ -458,9 +458,9 @@ second_heading {
     }
     .mainfive {
         display:flex;
-        gap: 0px;
+        /* gap: 0px;  */
         max-width: 10000px;
-        max-height:200px;
+        /* max-height:200px; */
         margin: 1px 135px;
         padding: 1px 8%;
         background-color: black;
