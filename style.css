@@ -422,14 +422,30 @@ second_heading {
         border-radius: 10px;
     }   
     /* Section fifth start now.    */
-    .sectionfive {
+    .sectionfive2 {
         /* display: flex; */
         align-items: center;
         /* justify-content: space-between; */
         padding: 60px 8%;
         /* gap: 40px; */
         /* text-decoration:white; */
+        border-left:2px solid white;
+        border-right:2px solid white;
+        /* border-left-color: white;
+        border-right-color: white; */
     }
+    .sectionfive {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 60px 8%;
+    /* gap: 40px; */
+    /* text-decoration:white; */
+    /* border-left: 2px solid white;
+    border-right: 2px solid white; */
+    /* border-left-color: white;
+        border-right-color: white; */
+}
     .card_icon1 {
         display: flex;
         border-radius: 50%;
