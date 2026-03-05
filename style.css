@@ -363,6 +363,37 @@ second_heading {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+/* Responsive design for third section.*/
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.para_heading_btn {
+    flex: 1;
+    min-width: 300px;
+}
+
+.third_img {
+    flex: 1;
+    text-align: center;
+}
+
+.third_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-top: 15px;
+}
 /* Section fouth start now.   */
 .section4 {
     display: flex;
@@ -370,4 +401,11 @@ second_heading {
     justify-content: space-between;
     padding: 60px 8%;
     gap: 40px;
+}
+.heading_4 {
+    background-color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 30px; */
+    padding: 1px 20px;
+    border-radius: 20px;
 }
