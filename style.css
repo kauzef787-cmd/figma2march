@@ -354,3 +354,12 @@ second_heading {
     height: auto;
     object-fit: cover;
 }
+.btn {
+    text-decoration: none;
+     color: white;
+    background: rgba(25, 26, 35, 1);
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
