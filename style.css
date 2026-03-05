@@ -288,9 +288,7 @@ body {
 .secon_color{
     background-color:yellowgreen !important;
 }
-.secon_heading{
-    background-color: white !important;
-}
+
 .iconcard {
 
     display: flex;
@@ -323,8 +321,8 @@ body {
     gap: 40px;
 }
 
-#h12 {
-    background-color: greenyellow;
+second_heading {
+    background-color:white;
     font-family: 'Courier New';
 }
 
