@@ -520,9 +520,10 @@ second_heading {
     background-color: greenyellow;
     border: solid black;
     border-bottom: 4px;
-    margin: 1px 135px;
+    margin:1px 135px;
     border-radius: 45px;
     border-bottom-style: double;
+    /* gap: 40px; */
 }
 
 .span01 {
@@ -530,6 +531,31 @@ second_heading {
     height: 900px; */
     /* font-family: Space Grotesk; */
 
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 60px;
+    /* leading-trim: NONE; */
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.section_8 {
+    size: 20px;
+    /* height: 20px; */
+    object-fit: cover;
+    padding: 60px 8%;
+    background-color: rgba(243, 243, 243, 1);
+    border: solid black;
+    /* border-bottom: 4px; */
+    margin:80px 130px;
+    border-radius: 45px;
+    /* border-bottom-style: double; */
+    padding: 68px 8%
+    /* gap: 40px; */
+    
+}
+
+.span2 {
     font-weight: 500px;
     font-style: Medium;
     font-size: 60px;
