@@ -493,3 +493,13 @@ second_heading {
     }
 
     /* section six start now */
+    .sectionsix {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 60px 8%;
+    gap: 40px;
+}
+#para6{
+    font-weight:heavy;
+}
