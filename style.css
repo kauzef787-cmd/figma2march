@@ -599,14 +599,28 @@ second_heading {
 
 /* section 10 ka first main div style. */
 .sectoin_ten {
-    width: 300px;
     border: 2px solid black;
-    padding: 20px;
+    border-radius: 50px;
+    padding: 15px;
     position: relative;
+    width:350px
+    
+   
 }
 
 .flex_ten {
     display: flex;
-    /* align-items: center; */
-    gap: 10px;
+    gap: 30px;
+
 }
+/* section 10 main style. */
+.section_tenmain{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    padding: 68px 8%
+    
+    
+}
+
+
+
