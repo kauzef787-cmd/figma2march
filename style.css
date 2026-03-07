@@ -563,3 +563,23 @@ second_heading {
     line-height: 100%;
     letter-spacing: 0%;
 }
+/* sectoin 10 start .  */
+/* firstly I make icon  */
+.icon_1 {
+    width:60px;
+height:60px;
+background:black;
+color:greenyellow;
+
+border-radius:50%;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:22px;
+font-weight:bold;
+position:relative;
+left:150px;
+top:50px;
+}
