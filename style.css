@@ -503,3 +503,8 @@ second_heading {
 #para6{
     font-weight:heavy;
 }
+ /* section seven start here for styling code . */
+ .section_seven {
+    object-fit: cover;
+    
+ }
