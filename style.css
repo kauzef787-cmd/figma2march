@@ -520,7 +520,7 @@ second_heading {
     background-color: greenyellow;
     border: solid black;
     border-bottom: 4px;
-    margin:1px 135px;
+    margin: 1px 135px;
     border-radius: 45px;
     border-bottom-style: double;
     /* gap: 40px; */
@@ -547,12 +547,12 @@ second_heading {
     background-color: rgba(243, 243, 243, 1);
     border: solid black;
     /* border-bottom: 4px; */
-    margin:50px 130px;
+    margin: 50px 130px;
     border-radius: 45px;
     /* border-bottom-style: double; */
     padding: 68px 8%
-    /* gap: 40px; */
-    
+        /* gap: 40px; */
+
 }
 
 .span2 {
@@ -563,23 +563,50 @@ second_heading {
     line-height: 100%;
     letter-spacing: 0%;
 }
+
 /* sectoin 10 start .  */
 /* firstly I make icon  */
 .icon_1 {
-    width:60px;
-height:60px;
-background:black;
-color:greenyellow;
+    /* width: 60px;
+    height: 60px;
+    background: black;
+    color: greenyellow;
 
-border-radius:50%;
+    border-radius: 50%;
 
-display:flex;
-justify-content:center;
-align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-font-size:22px;
-font-weight:bold;
-position:relative;
-left:150px;
-top:50px;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+    top: 50px; */
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: greenyellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* section 10 ka first main div style. */
+.sectoin_ten {
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+.flex_ten {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
 }
