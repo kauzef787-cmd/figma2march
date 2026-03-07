@@ -520,7 +520,20 @@ second_heading {
     background-color: greenyellow;
     border: solid black;
     border-bottom: 4px;
-    margin:1px 135px;
+    margin: 1px 135px;
     border-radius: 45px;
-    border-bottom-style:double;
+    border-bottom-style: double;
+}
+
+.span01 {
+    /* width: 60px;
+    height: 900px; */
+    /* font-family: Space Grotesk; */
+
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 60px;
+    /* leading-trim: NONE; */
+    line-height: 100%;
+    letter-spacing: 0%;
 }
