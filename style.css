@@ -624,6 +624,16 @@ second_heading {
     background-color: black;
     border: 2px solid black;
     border-radius: 50px;
-    padding: 68px 8%;
+    /* padding: 68px 8%; */
     margin:0px 100px 0px 100px;
+}
+.white_bdr{
+    border:2px solid;
+    border-color:greenyellow;
+    color:aliceblue;
+    border-left-style: none;
+    /* justify-content:left; */
+    border-radius: 50px;
+    /* object-fit: cover; */
+    /* border-width: 350px; */
 }
