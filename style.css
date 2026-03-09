@@ -704,3 +704,128 @@ border-radius: 50px;
     border-style: solid;
     border-color: white transparent transparent transparent;     
 }
+/* section 14 start here ...  */
+.form_main1 {
+    
+    font-family: Arial;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+
+background-color: #eeeeee;
+border-radius: 40px;
+/* padding: 60px 8%; */
+
+    }
+
+.main-box {
+    width: 950px;
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LEFT SIDE */
+
+.left {
+    width: 55%;
+}
+
+.radio {
+    margin-bottom: 30px;
+}
+
+.radio label {
+    margin-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.radio input {
+    display: none;
+}
+
+.radio span {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.radio input:checked+span {
+    background: #a6e34a;
+    border-color: #a6e34a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    font-size: 15px;
+    background: #f6f6f6;
+}
+
+textarea {
+    height: 130px;
+    resize: none;
+}
+
+button {
+    margin-top: 30px;
+    padding: 16px;
+    border: none;
+    border-radius: 15px;
+    background: #1c2030;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* RIGHT SIDE */
+
+.right {
+    width: 35%;
+    position: relative;
+    height: 300px;
+}
+
+.big-star {
+    width: 140px;
+    height: 140px;
+    background: #1c2030;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+
+    clip-path: polygon(50% 0%, 60% 35%, 100% 50%, 60% 65%,
+            50% 100%, 40% 65%, 0% 50%, 40% 35%);
+}
+
+.small-star {
+    width: 80px;
+    height: 80px;
+    background: #a6e34a;
+    position: absolute;
+    bottom: 0;
+    right: 140px;
+
+    clip-path: polygon(50% 0%, 60% 35%, 100% 50%, 60% 65%,
+            50% 100%, 40% 65%, 0% 50%, 40% 35%);   }
