@@ -812,6 +812,126 @@ button {
     width: 200px;
 height: auto;
 }
+/* last secttion of the footer style....  */
+.footer {
+    background: #0f1420;
+    color: white;
+    padding: 40px 80px;
+    border-radius:50px;
+    font-family: Arial;
+/* background: white; */
+justify-content: center;
+align-items: center;
+object-fit: cover;
+/* width: 1480px; */
+/* background-color: #eeeeee; */
+border-radius: 40px;
+max-width: 10000px;
+margin: 150px 135px;
+}
 
+/* top section */
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo h2 {
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* middle section */
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-title {
+    background: #b6ff5c;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.contact p {
+    margin: 8px 0;
+    color: #d0d0d0;
+}
+
+/* subscribe box */
+
+.subscribe-box {
+    background: #1c2130;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+}
+
+.subscribe-box input {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background: transparent;
+    color: white;
+}
+
+.subscribe-box button {
+    background: #b6ff5c;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* bottom */
+
+.footer-bottom {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    color: #bdbdbd;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: underline;   }
 
 
