@@ -615,6 +615,23 @@ second_heading {
     top: 10px;
 }
 
+/* responsive cards....  */
+
+.divmain_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+@media (max-width:768px)
+ {
+
+    .divmain_card {
+        grid-template-columns: 1fr;
+    }
+
+}
 /* section 10 ka first main div style. */
 .sectoin_ten {
     border: 2px solid black;
