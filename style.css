@@ -637,6 +637,24 @@ second_heading {
     padding: 68px 8%
 }
 
+/* responsive .... section 10 ..  */
+.section_tenmain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+@media (max-width:768px)
+ {
+
+    .section_tenmain {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
 /* section 12 :start now */
 .section12_main {
     /* object-fit: cover; */
