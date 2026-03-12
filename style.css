@@ -95,22 +95,22 @@ img {
 
 
 /*  Responsive Part */
-@media (max-width: 768px)
- {
-    .flex {
-        flex-direction: column;
-        text-align: center;
-    }
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+}
 
-    .nav {
-        flex-direction: column;
-        text-align: center;
-    }
+@media (max-width:768px) 
+ {
 
     .hero_section {
         flex-direction: column;
         text-align: center;
     }
+
 }
 
 /* next section is second bar  */
@@ -530,6 +530,14 @@ second_heading {
     font-weight: heavy;
 }
 
+/* logo respponsive .....  */
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
 /* section seven start here for styling code . */
 
 .section_seven {
