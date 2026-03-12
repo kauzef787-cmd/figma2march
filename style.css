@@ -262,7 +262,8 @@ img {
 
 
 /* Responsive design for card section.; */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+  {
 
     .card_section {
         flex-direction: column;
