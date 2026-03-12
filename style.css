@@ -65,6 +65,7 @@ img {
 }
 
 /* Nav end */
+/* nav responsive .....  */
 
 
 /* Hero section Start  */
@@ -94,7 +95,8 @@ img {
 
 
 /*  Responsive Part */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
     .flex {
         flex-direction: column;
         text-align: center;
@@ -149,14 +151,16 @@ img {
 }
 
 /* Responsive for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
     .section2 {
         gap: 20px;
         padding: 20px 5%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px)
+ {
     .section2 div {
         flex: 1 1 100px;
         /* smaller logos on mobile */
@@ -385,7 +389,8 @@ second_heading {
 }
 
 /* Responsive design for third section.*/
-@media (max-width:768px) {
+@media (max-width:768px)
+ {
     .section3 {
         display: flex;
         align-items: center;
@@ -825,6 +830,25 @@ button {
     width: 200px;
 height: auto;
 }
+
+/* form responsive ..  */
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
+
+ @media (max-width:768px) 
+ {
+
+    .main-box {
+        flex-direction: column;
+    }
+}
+
 /* last secttion of the footer style....  */
 .footer {
     background: #0f1420;
@@ -841,6 +865,31 @@ object-fit: cover;
 border-radius: 40px;
 max-width: 10000px;
 margin: 150px 135px;
+}
+/* responsive footer section  */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width:768px)
+ {
+
+    .footer-top,
+    .footer-middle {
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
 
 /* top section */
