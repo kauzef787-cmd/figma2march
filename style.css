@@ -103,8 +103,7 @@ img {
     gap: 30px;
 }
 
-@media (max-width:768px) 
- {
+@media (max-width:768px) {
 
     .hero_section {
         flex-direction: column;
@@ -151,16 +150,14 @@ img {
 }
 
 /* Responsive for smaller screens */
-@media (max-width: 768px)
- {
+@media (max-width: 768px) {
     .section2 {
         gap: 20px;
         padding: 20px 5%;
     }
 }
 
-@media (max-width: 480px)
- {
+@media (max-width: 480px) {
     .section2 div {
         flex: 1 1 100px;
         /* smaller logos on mobile */
@@ -262,8 +259,7 @@ img {
 
 
 /* Responsive design for card section.; */
-@media (max-width: 768px)
-  {
+@media (max-width: 768px) {
 
     .card_section {
         flex-direction: column;
@@ -390,8 +386,7 @@ second_heading {
 }
 
 /* Responsive design for third section.*/
-@media (max-width:768px)
- {
+@media (max-width:768px) {
     .section3 {
         display: flex;
         align-items: center;
@@ -539,6 +534,7 @@ second_heading {
     gap: 20px;
     padding: 30px;
 }
+
 /* section seven start here for styling code . */
 
 .section_seven {
@@ -633,14 +629,14 @@ second_heading {
     padding: 40px;
 }
 
-@media (max-width:768px)
- {
+@media (max-width:768px) {
 
     .divmain_card {
         grid-template-columns: 1fr;
     }
 
 }
+
 /* section 10 ka first main div style. */
 .sectoin_ten {
     border: 2px solid black;
@@ -671,8 +667,7 @@ second_heading {
     padding: 40px;
 }
 
-@media (max-width:768px)
- {
+@media (max-width:768px) {
 
     .section_tenmain {
         grid-template-columns: 1fr;
@@ -783,7 +778,7 @@ second_heading {
     background-color: #eeeeee;
     border-radius: 40px;
     max-width: 10000px;
-margin: 1px 135px;
+    margin: 1px 135px;
 }
 
 .main-box {
@@ -792,7 +787,7 @@ margin: 1px 135px;
     border-radius: 40px;
     padding: 60px 8%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     object-fit: cover;
 }
@@ -872,11 +867,11 @@ button {
     /* position: relative; */
     height: 300px;
     width: 200px;
-height: auto;
+    height: auto;
 }
 
 /* form responsive ..  */
-
+/*
 .main-box {
     display: flex;
     align-items: center;
@@ -893,25 +888,176 @@ height: auto;
     }
 }
 
-
 /* last secttion of the footer style....  */
 .footer {
     background: #0f1420;
     color: white;
     padding: 40px 80px;
-    border-radius:50px;
+    border-radius: 50px;
     font-family: Arial;
-/* background: white; */
-justify-content: center;
-align-items: center;
-object-fit: cover;
-/* width: 1480px; */
-/* background-color: #eeeeee; */
-border-radius: 40px;
-max-width: 10000px;
-margin: 150px 135px;
+    /* background: white; */
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    /* width: 1480px; */
+    /* background-color: #eeeeee; */
+    border-radius: 40px;
+    max-width: 10000px;
+    margin: 150px 135px;
 }
-/* responsive footer section  */
+
+/* Responsive design  */
+/* ================= GLOBAL FIX ================= */
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================= CONTAINER FIX ================= */
+.section3,
+.mainfive,
+.section_seven,
+.section_8,
+.main_121,
+.form_main1,
+.footer {
+    margin: 20px !important;
+}
+
+/* ================= HERO FIX ================= */
+@media (max-width:768px) {
+    .hero_section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* ================= CARD FIX ================= */
+@media (max-width:1024px) {
+    .divmain_card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:768px) {
+    .divmain_card {
+        grid-template-columns: 1fr;
+    }
+
+    .card_section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px !important;
+        gap: 20px;
+    }
+}
+
+/* ================= SECTION 3 (BIG GAP FIX) ================= */
+@media (max-width:768px) {
+    .section3 {
+        flex-direction: column;
+        gap: 20px !important;
+        margin: 20px !important;
+        padding: 20px !important;
+        text-align: center;
+    }
+}
+
+/* ================= SECTION FIVE (BLACK BOX) ================= */
+@media (max-width:768px) {
+    .mainfive {
+        flex-direction: column;
+        margin: 20px !important;
+        padding: 20px !important;
+    }
+
+    .sectionfive,
+    .sectionfive2 {
+        padding: 20px !important;
+        border: none !important;
+    }
+}
+
+/* ================= SECTION 7 & 8 ================= */
+@media (max-width:768px) {
+
+    .section_seven,
+    .section_8 {
+        margin: 20px !important;
+        padding: 20px !important;
+    }
+}
+
+/* ================= TEAM SECTION ================= */
+@media (max-width:1024px) {
+    .section_tenmain {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:768px) {
+    .section_tenmain {
+        grid-template-columns: 1fr;
+    }
+
+    .sectoin_ten {
+        width: 100% !important;
+    }
+}
+
+/* ================= TESTIMONIAL SECTION ================= */
+@media (max-width:768px) {
+    .section12_main {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .white_bdr,
+    .border-section12,
+    .border_style12right {
+        width: 100%;
+    }
+
+    .main_121 {
+        margin: 20px !important;
+        padding: 20px;
+    }
+}
+
+/* ================= FORM FIX ================= */
+@media (max-width:768px) {
+    .main-box {
+        flex-direction: column;
+        width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .left,
+    .right {
+        width: 100% !important;
+    }
+
+    .right img {
+        width: 100%;
+    }
+
+    .form_main1 {
+        margin: 20px !important;
+    }
+}
+
+/* ================= 🔥 FOOTER PRO FIX ================= */
+
+.footer {
+    margin: 40px 20px !important;
+    padding: 30px !important;
+}
+
+/* TOP */
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -919,6 +1065,15 @@ margin: 150px 135px;
     gap: 20px;
 }
 
+/* NAV LINKS */
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* MIDDLE */
 .footer-middle {
     display: flex;
     justify-content: space-between;
@@ -926,119 +1081,45 @@ margin: 150px 135px;
     gap: 20px;
 }
 
-@media (max-width:768px)
- {
+/* SUBSCRIBE */
+.subscribe-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
-    .footer-top,
+.subscribe-box input {
+    width: 200px;
+    max-width: 100%;
+}
+
+/* BOTTOM */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* ================= MOBILE FOOTER ================= */
+@media (max-width:768px) {
+
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .footer-middle {
         flex-direction: column;
         text-align: center;
     }
 
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .subscribe-box {
+        justify-content: center;
+    }
 }
-
-/* top section */
-
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.logo h2 {
-    font-weight: 600;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.icon {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: white;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
-/* middle section */
-
-.footer-middle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.contact-title {
-    background: #b6ff5c;
-    color: black;
-    display: inline-block;
-    padding: 5px 10px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-}
-
-.contact p {
-    margin: 8px 0;
-    color: #d0d0d0;
-}
-
-/* subscribe box */
-
-.subscribe-box {
-    background: #1c2130;
-    padding: 25px;
-    border-radius: 12px;
-    display: flex;
-    gap: 15px;
-}
-
-.subscribe-box input {
-    padding: 12px 15px;
-    border-radius: 8px;
-    border: 1px solid gray;
-    background: transparent;
-    color: white;
-}
-
-.subscribe-box button {
-    background: #b6ff5c;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-/* bottom */
-
-.footer-bottom {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
-    color: #bdbdbd;
-}
-
-.footer-bottom a {
-    color: white;
-    text-decoration: underline;   }
-
-
